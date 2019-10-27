@@ -236,7 +236,7 @@ public static class ItemData
                 _heal = 0;
                 break;
             #endregion
-            #region Potions 600 - 699
+            #region Potion 600 - 699
             case 600:
                 _name = "Srugah Blood";
                 _description = "These deformed beings are physically harmless, but left alone with one will drive one to the brink of madness. If a Srugah is killed while targeting another being, the blood can be collected and sold for a high price. The blood is also used to fertilise Srugah pods.";
@@ -357,8 +357,8 @@ public static class ItemData
             case 900:
                 _name = "Gnome's Longbow";
                 _description = "";
-                _amount = 5;
-                _value = 1;
+                _amount = 1;
+                _value = 50;
                 _type = ItemType.Weapon;
                 _icon = "Weapon/bt_02";
                 _mesh = "Weapon/bt_02";
@@ -369,8 +369,8 @@ public static class ItemData
             case 901:
                 _name = "Grand Broadsword";
                 _description = "";
-                _amount = 5;
-                _value = 1;
+                _amount = 1;
+                _value = 150;
                 _type = ItemType.Weapon;
                 _icon = "Weapon/st_04";
                 _mesh = "Weapon/st_04";
@@ -381,8 +381,8 @@ public static class ItemData
             case 902:
                 _name = "Blood Mage Staff";
                 _description = "";
-                _amount = 5;
-                _value = 1;
+                _amount = 1;
+                _value = 100;
                 _type = ItemType.Weapon;
                 _icon = "Weapon/st_05";
                 _mesh = "Weapon/st_05";
