@@ -37,27 +37,14 @@ namespace Linear
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
-
-            for (int i = 0; i < inv.Count; i++)
-            {
-                Instantiate(invButton, content);
-            }
         }
-        
-        //        for (int i = 0; i<inv.Count; i++)
-        //        {
-        //            GameObject clone = Instantiate(invButton, content);
-        //            clone.name = inv[i].Name;
-        //            clone.GetComponentInChildren<Text>().text = inv[i].Name;
-        //        }
 
     void Update()
         {
             content.sizeDelta = new Vector2(292, 30 * inv.Count);
             if (Input.GetKey(KeyCode.I))
             {
-                inv.Add(ItemData.CreateItem(Random.Range(1, 999)));
-                Instantiate(invButton, content);
+                inv.Add(ItemData.CreateItem(Random.Range(0, 9) * 100 + Random.Range(0, 2)));
                 GameObject clone = Instantiate(invButton, content);
                 clone.name = inv[inv.Count - 1].Name;
                 clone.GetComponentInChildren<Text>().text = inv[inv.Count - 1].Name;
