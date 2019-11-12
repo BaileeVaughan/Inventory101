@@ -292,22 +292,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 542394400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f29767738b586e46aef1237c86a5c8b, type: 3}
+  m_Script: {fileID: 11500000, guid: a4e2fd1ffe616764bb8a1384e371b63d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showInv: 0
-  scr: {x: 0, y: 0}
-  scrollPos: {x: 0, y: 0}
-  money: 0
-  sortType: 
-  dropLocation: {fileID: 1252577360}
-  equiptmentSlots:
-  - name: Head
-    location: {fileID: 838634507}
-    curItem: {fileID: 0}
-  - name: Hand
-    location: {fileID: 1861620909}
-    curItem: {fileID: 0}
+  showSelectMenu: 0
+  toggleTogglable: 0
+  scrW: 0
+  scrH: 0
+  radialTexture: {fileID: 2800000, guid: a45deb465c399b947bcea9ef2a065dbf, type: 3}
+  slotTexture: {fileID: 2800000, guid: 306772f7d908d8e4787d8a1a369f9a36, type: 3}
+  circleScaleOffset: 0
+  iconSize: {x: 1, y: 1}
+  showIcons: 1
+  showBoxes: 1
+  showBounds: 1
+  iconSizeNum: 1
+  radialRotation: 0
+  iconOffset: 0
+  mouse: {x: 0, y: 0}
+  input: {x: 0, y: 0}
+  inputDist: 0
+  inputAngle: 0
+  keyIndex: 0
+  mouseIndex: 0
+  inputIndex: 0
+  slotPos: []
+  boundPos: []
+  numOfSectors: 16
+  circleRadius: 150
+  mouseDistance: 0
+  sectorDegree: 0
+  mouseAngles: 0
+  sectorIndex: 0
+  withinCircle: 0
 --- !u!136 &542394402
 CapsuleCollider:
   m_ObjectHideFlags: 0
