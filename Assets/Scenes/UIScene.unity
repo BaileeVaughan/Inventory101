@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &78090931
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695689221}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f43848cecf2ff438c0a9787205b053, type: 3}
   m_Name: 
@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695689221}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7e2ed0fee809a4dac392bde590b9ac, type: 3}
   m_Name: 
@@ -2054,7 +2054,7 @@ RectTransform:
   m_Father: {fileID: 2013444249}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.00000010172526}
+  m_AnchorMin: {x: 0, y: 0.00000005086263}
   m_AnchorMax: {x: 1, y: 0.5415}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -2688,7 +2688,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 845382847}
   m_HandleRect: {fileID: 845382846}
   m_Direction: 2
-  m_Value: 0.00000022186533
+  m_Value: 0.00000011093267
   m_Size: 0.5415
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3066,7 +3066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1268234844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4063,7 +4063,7 @@ GameObject:
   - component: {fileID: 1580140071}
   - component: {fileID: 1580140070}
   m_Layer: 5
-  m_Name: DnDCanvas
+  m_Name: InvCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
